@@ -25,7 +25,7 @@ public class InputLoginAndPassword extends Settings {
     }
 
     @Test
-    public void scriptB() throws InterruptedException {
+    public void scriptB() {
         login();
         Actions actions = new Actions(driver);
         for (String subMenuItem : subMenu) {
